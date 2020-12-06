@@ -361,7 +361,7 @@ img {
   align-items: center;
   width: 170px;
   height: 90px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 3px;
 }
 
@@ -371,7 +371,7 @@ img {
 }
 
 .clients-logo {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .cliens-list__link:hover .clients-logo,
@@ -379,12 +379,11 @@ img {
   fill: var(--accent-color);
 }
 
-
 /*=====================================================FOOTER====================================*/
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #000000;
+  background-color: #2f303a;
 }
 .contacts-info {
   padding-top: 20px;
@@ -421,6 +420,42 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-contacts-wrapper {
+  margin-right: 70px;
+}
+
+.footer-social-list {
+  display: flex;
+  padding-top: 20px;
+}
+.footer-social-list .social-links__link {
+  background-color: rgba(255, 255, 255, 10%);
+}
+
+.footer-social-list .social-links__link:hover,
+.footer-social-list .social-links__link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-social-list .social-links__icon {
+  fill: #ffffff;
+}
+
+.appeal {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
 /*=======================================================PORTFOLIO================================*/
