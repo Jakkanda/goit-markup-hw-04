@@ -43,7 +43,10 @@ img {
 }
 
 /*================================================COMPONENTS===============================================*/
-
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -203,11 +206,6 @@ img {
 }
 
 /*======================================================FEATURES====================================*/
-.section-features {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .features {
   display: flex;
 }
@@ -273,9 +271,7 @@ img {
 }
 /*=====================================================OUR TEAM====================================*/
 
-.section-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.team {
   background-color: #f5f4fa;
 }
 
@@ -351,6 +347,7 @@ img {
 .social-links__link:focus .social-links__icon {
   fill: #ffffff;
 }
+/* ====================================================== OUR CLIENTS ===========================*/
 
 /*=====================================================FOOTER====================================*/
 .footer {
@@ -473,11 +470,14 @@ img {
 
 .examples-description-wrapper {
   padding: 20px 24px;
+  border: 1px solid #EEEEEE; 
 }
 
-.examples-link-wrapper:hover,
-.examples-link-wrapper:focus {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+.examples-link-wrapper:hover { 
+  /* box-shadow: 0px 4px 4px 0px #000000 25%; */
+  filter: drop-shadow();
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .portfolio-main {
